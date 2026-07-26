@@ -38,6 +38,11 @@ My name is Mike and I'm a Senior Software Engineer
 - [{{.Title}}]({{.URL}}) on [{{.Repo.Name}}]({{.Repo.URL}}) ({{humanize .CreatedAt}})
 {{- end}}
 
+#### 🏗️ Activity in [Project-ATL](https://github.com/project-atl)
+{{range recentPushedRepos "project-atl" 10}}
+- [{{.Name}}]({{.URL}}) - {{.Description}} ({{humanize .PushedAt}})
+{{- end}}
+
 <!--
 #### 🚀 Latest releases I contributed to
 {{range recentReleases 5}}
