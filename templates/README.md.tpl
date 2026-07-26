@@ -69,6 +69,7 @@ My name is Mike and I'm a Senior Software Engineer
 <div align="center">
 
 <!--START_SECTION:badges-->
+<img src="https://img.shields.io/badge/Status-Loading_Badges-yellow?style=for-the-badge" />
 <!--END_SECTION:badges-->
 
 </div>
