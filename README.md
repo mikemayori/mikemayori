@@ -29,21 +29,22 @@ My name is Mike and I'm a Senior Software Engineer
 #### 🚀 My recent pull requests
 
 
+#### 🏗️ My recent projects
+
+- [mikemayori/litecoin-resilient](https://github.com/mikemayori/litecoin-resilient) - 
+- [mikemayori/rproxy4crypto](https://github.com/mikemayori/rproxy4crypto) - 
+- [mikemayori/mesh-deposit-poc](https://github.com/mikemayori/mesh-deposit-poc) - initial
+- [mikemayori/mesh-iframe-poc](https://github.com/mikemayori/mesh-iframe-poc) - Mesh Iframe POC Validation
+- [mikemayori/payment_gateway_simulator](https://github.com/mikemayori/payment_gateway_simulator) - 
+- [mikemayori/consumer-pattern](https://github.com/mikemayori/consumer-pattern) - 
+- [mikemayori/exchange-simulator](https://github.com/mikemayori/exchange-simulator) - Exchange Simulator
+
 
 
 #### ⭐ Latest repositories I starred
 
 
 #### 👥 My latest followers
-
-
-#### 👨‍💻 Repositories I created recently
-
-- [mikemayori/litecoin-resilient](https://github.com/mikemayori/litecoin-resilient)
-- [mikemayori/rproxy4crypto](https://github.com/mikemayori/rproxy4crypto)
-- [mikemayori/mesh-deposit-poc](https://github.com/mikemayori/mesh-deposit-poc) - initial
-- [mikemayori/mesh-iframe-poc](https://github.com/mikemayori/mesh-iframe-poc) - Mesh Iframe POC Validation
-- [mikemayori/payment_gateway_simulator](https://github.com/mikemayori/payment_gateway_simulator)
 
 
 ## Contribution graph
