@@ -73,7 +73,6 @@ Find all [my badges on Credly.com](https://www.credly.com/users/miguel-mayori.78
 <div align="center">
 
 
-<img src="https://img.shields.io/badge/Status-Loading_Badges-yellow?style=for-the-badge" />
 
 
 </div>
