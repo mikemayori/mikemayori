@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 My name is Mike and I'm a Senior Software Engineer
 
 <!--
-💬 Ask me about Azure: how to get started and get productive in the cloud.
+💬 Ask me about Amazon , Terraform , Software Architecture: how to get started and get productive in the cloud.
 -->
 
 #### 📖 My latest blog posts
@@ -66,8 +66,12 @@ My name is Mike and I'm a Senior Software Engineer
 
 ## 🎓 Certificates & Trainings
 
+<div align="center">
+
 <!--START_SECTION:badges-->
 <!--END_SECTION:badges-->
+
+</div>
 
 Find all [my badges on Credly.com](https://www.credly.com/users/miguel-mayori.7884526b).
 
