@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 24
 
-      - uses: muesli/readme-scribe@v0.1
+      - uses: muesli/readme-scribe@master
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
         with:
