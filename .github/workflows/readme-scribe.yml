@@ -30,6 +30,7 @@ jobs:
           GH_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
           REPOSITORY: ${{ github.repository }}
           CREDLY_USER: miguel-mayori.7884526b
+          COMMIT_MESSAGE: "Update Credly badges"
 
       - uses: stefanzweifel/git-auto-commit-action@v7
         env:
