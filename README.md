@@ -67,6 +67,9 @@ My name is Mike and I'm a Senior Software Engineer
 
 ## 🎓 Certificates & Trainings
 
+Find all [my badges on Credly.com](https://www.credly.com/users/miguel-mayori.7884526b).
+<br/>
+
 <div align="center">
 
 
@@ -74,6 +77,4 @@ My name is Mike and I'm a Senior Software Engineer
 
 
 </div>
-
-Find all [my badges on Credly.com](https://www.credly.com/users/miguel-mayori.7884526b).
 
