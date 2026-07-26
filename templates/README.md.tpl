@@ -29,8 +29,13 @@ My name is Mike and I'm a Senior Software Engineer
 {{- end }}
 
 #### 👷 I'm currently working on (aka my most recent contributions)
-{{range recentContributions 5}}
+{{range recentContributions 10}}
 - [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} ({{humanize .OccurredAt}})
+{{- end}}
+
+#### 🚀 My recent pull requests
+{{range recentPullRequests 10}}
+- [{{.Title}}]({{.URL}}) on [{{.Repo.Name}}]({{.Repo.URL}}) ({{humanize .CreatedAt}})
 {{- end}}
 
 <!--
