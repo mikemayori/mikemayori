@@ -88,3 +88,8 @@ Find all [my badges on Credly.com](https://www.credly.com/users/miguel-mayori.78
 
 </div>
 
+<div class="sidebar-badges">
+  <a href="https://github.com">
+    <img src="https://shields.io" alt="Build Status">
+  </a>
+</div>
