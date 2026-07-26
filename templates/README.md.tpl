@@ -35,12 +35,12 @@ My name is Mike and I'm a Senior Software Engineer
 
 #### 🚀 My recent pull requests
 {{range recentPullRequests 10}}
-- [{{.Title}}]({{.URL}}) on [{{.Repo.Name}}]({{.Repo.URL}}) ({{humanize .CreatedAt}})
+- [{{.Title}}]({{.URL}}) on [{{.Repo.Name}}]({{.Repo.URL}})
 {{- end}}
 
 #### 🏗️ My recent projects
 {{range recentRepos 10}}
-- [{{.Name}}]({{.URL}}) - {{.Description}} ({{humanize .CreatedAt}})
+- [{{.Name}}]({{.URL}}) - {{.Description}}
 {{- end}}
 
 <!--
@@ -59,12 +59,6 @@ My name is Mike and I'm a Senior Software Engineer
 {{range followers 5}}
 - [{{.Login}}]({{.URL}}) - {{.Name}}
 {{- end}}
-
-#### 👨‍💻 Repositories I created recently
-{{range recentRepos 5}}
-- [{{.Name}}]({{.URL}}){{ with .Description }} - {{.}}{{ end }}
-{{- end}}
-
 
 ## Contribution graph
 <img alt="github-snake" src="https://raw.githubusercontent.com/mikemayori/mikemayori/refs/heads/output/github-contribution-grid-snake.svg" />
