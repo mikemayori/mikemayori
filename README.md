@@ -32,7 +32,7 @@ My name is Mike and I'm a Senior Software Engineer
 
 #### 👷 I'm currently working on (aka my most recent contributions)
 
-- [mikemayori/litecoin-resilient](https://github.com/mikemayori/litecoin-resilient) -  (2 weeks ago)
+- [mikemayori/litecoin-resilient](https://github.com/mikemayori/litecoin-resilient) -  (3 weeks ago)
 - [mikemayori/rproxy4crypto](https://github.com/mikemayori/rproxy4crypto) -  (1 month ago)
 - [mikemayori/mesh-deposit-poc](https://github.com/mikemayori/mesh-deposit-poc) - initial (3 months ago)
 - [mikemayori/mesh-iframe-poc](https://github.com/mikemayori/mesh-iframe-poc) - Mesh Iframe POC Validation (4 months ago)
