@@ -38,7 +38,7 @@ My name is Mike and I'm a Senior Software Engineer
 - [mikemayori/mesh-iframe-poc](https://github.com/mikemayori/mesh-iframe-poc) - Mesh Iframe POC Validation (4 months ago)
 - [mikemayori/payment_gateway_simulator](https://github.com/mikemayori/payment_gateway_simulator) -  (4 months ago)
 - [mikemayori/consumer-pattern](https://github.com/mikemayori/consumer-pattern) -  (4 months ago)
-- [mikemayori/exchange-simulator](https://github.com/mikemayori/exchange-simulator) - Exchange Simulator (4 months ago)
+- [mikemayori/exchange-simulator](https://github.com/mikemayori/exchange-simulator) - Exchange Simulator (5 months ago)
 
 #### 🚀 My recent pull requests
 
