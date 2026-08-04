@@ -28,5 +28,5 @@ md = md.replace(
     /<!-- CONFLUENCE:START -->[\s\S]*<!-- CONFLUENCE:END -->/,
     `<!-- CONFLUENCE:START -->\n${block}\n<!-- CONFLUENCE:END -->`
 );
-fs.writeFileSync("README.md", md);
+fs.writeFileSync("templates/README.md.tpl", md);
 console.log("Updated README:", block);
