@@ -64,6 +64,7 @@ My name is Mike and I'm a Senior Software Engineer
 
 ## 📝 Recent Confluence Contributions
 <!-- CONFLUENCE:START -->
+📄 **50** Confluence pages contributed
 <!-- CONFLUENCE:END -->
 
 #### ⭐ Latest repositories I starred
