@@ -62,6 +62,10 @@ My name is Mike and I'm a Senior Software Engineer
 {{- end}}
 -->
 
+## 📝 Recent Confluence Contributions
+<!-- CONFLUENCE:START -->
+<!-- CONFLUENCE:END -->
+
 #### ⭐ Latest repositories I starred
 {{range recentStars 5}}
 - [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} - {{.Repo.Stargazers}} stars

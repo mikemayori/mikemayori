@@ -1,0 +1,23 @@
+name: Update Confluence contributions
+on:
+  schedule:
+    - cron: "0 6 * * *"   # daily
+  workflow_dispatch:
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node update-confluence.js
+        env:
+          CF_SITE: ${{ secrets.CF_SITE }}
+          CF_EMAIL: ${{ secrets.CF_EMAIL }}
+          CF_TOKEN: ${{ secrets.CF_TOKEN }}
+      - run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update Confluence contributions" || echo "no changes"
+          git push
