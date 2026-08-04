@@ -1,17 +1,32 @@
-const auth = Buffer.from(`${process.env.CF_EMAIL}:${process.env.CF_TOKEN}`).toString("base64");
-const res = await fetch(
-    `https://${process.env.CF_SITE}.atlassian.net/wiki/rest/api/content/search?cql=contributor=currentUser()%20order%20by%20lastmodified%20desc&limit=10&expand=version`,
-    { headers: { Authorization: `Basic ${auth}` } }
-);
-const { results } = await res.json();
-const rows = results.map(p =>
-    `- [${p.title}](https://${process.env.CF_SITE}.atlassian.net/wiki${p._links.webui}) — updated ${p.version.when.slice(0,10)}`
-).join("\n");
+import fs from "fs";
 
-const fs = require("fs");
+const site = process.env.CF_SITE.replace(/^https?:\/\//, "").replace(/\/+$/, "");
+const auth = Buffer.from(`${process.env.CF_EMAIL}:${process.env.CF_TOKEN}`).toString("base64");
+
+const url = new URL(`https://${site}/wiki/rest/api/content/search`);
+url.searchParams.set("cql", "contributor=currentUser() order by lastmodified desc");
+url.searchParams.set("limit", "50");
+url.searchParams.set("expand", "version");
+
+const res = await fetch(url, { headers: { Authorization: `Basic ${auth}` } });
+if (!res.ok) {
+    throw new Error(`Confluence API ${res.status}: ${await res.text()}`);
+}
+const { results, size } = await res.json();
+
+// Counts-only, safe for a public profile:
+const count = size ?? results.length;
+const block = `📄 **${count}** Confluence pages contributed`;
+
+// If you DO want titles/links instead, comment the two lines above and use:
+// const block = results.map(p =>
+//   `- [${p.title}](https://${site}/wiki${p._links.webui}) — ${p.version.when.slice(0,10)}`
+// ).join("\n");
+
 let md = fs.readFileSync("README.md", "utf8");
 md = md.replace(
     /<!-- CONFLUENCE:START -->[\s\S]*<!-- CONFLUENCE:END -->/,
-    `<!-- CONFLUENCE:START -->\n${rows}\n<!-- CONFLUENCE:END -->`
+    `<!-- CONFLUENCE:START -->\n${block}\n<!-- CONFLUENCE:END -->`
 );
 fs.writeFileSync("README.md", md);
+console.log("Updated README:", block);
