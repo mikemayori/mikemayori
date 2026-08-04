@@ -16,6 +16,11 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: 24
+      - run: node update-confluence.js
+        env:
+          CF_SITE: ${{ secrets.CF_SITE }}
+          CF_EMAIL: ${{ secrets.CF_EMAIL }}
+          CF_TOKEN: ${{ secrets.CF_TOKEN }}
 
       - uses: muesli/readme-scribe@v0.1
         env:

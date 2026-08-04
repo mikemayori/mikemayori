@@ -23,7 +23,7 @@ const block = `📄 **${count}** Confluence pages contributed`;
 //   `- [${p.title}](https://${site}/wiki${p._links.webui}) — ${p.version.when.slice(0,10)}`
 // ).join("\n");
 
-let md = fs.readFileSync("README.md", "utf8");
+let md = fs.readFileSync("templates/README.md.tpl", "utf8");
 md = md.replace(
     /<!-- CONFLUENCE:START -->[\s\S]*<!-- CONFLUENCE:END -->/,
     `<!-- CONFLUENCE:START -->\n${block}\n<!-- CONFLUENCE:END -->`
