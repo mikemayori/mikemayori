@@ -68,7 +68,7 @@ My name is Mike and I'm a Senior Software Engineer
 
 #### 👥 My latest followers
 
-- [artisanvaultcode](https://github.com/artisanvaultcode) - Mayori&#39;s Engineering
+- [mayori-engineering](https://github.com/mayori-engineering) - Mayori&#39;s Engineering
 
 ## Contribution graph
 <img alt="github-snake" src="https://raw.githubusercontent.com/mikemayori/mikemayori/refs/heads/output/github-contribution-grid-snake.svg" />
