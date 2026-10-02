@@ -25,27 +25,29 @@ My name is Mike and I'm a Senior Software Engineer
 
 #### 📖 My latest blog posts
 - [Engineering Agency: Bridging Delegation Theory and Production Agent Architecture](https://medium.com/@mayori.engineering/engineering-agency-bridging-delegation-theory-and-production-agent-architecture-6db00a495a98?source=rss-acee003b5adb------2) (1 week ago)
-- [Gradient Descent in Plain English: 6 Ideas we should Remember](https://medium.com/@mayori.engineering/gradient-descent-in-plain-english-6-ideas-we-should-remember-c64f5b4ceb7c?source=rss-acee003b5adb------2) (1 month ago)
-- [PR’s are not the Goal](https://medium.com/@mayori.engineering/prs-are-not-the-goal-bace1c1081a8?source=rss-acee003b5adb------2) (1 month ago)
+- [Gradient Descent in Plain English: 6 Ideas we should Remember](https://medium.com/@mayori.engineering/gradient-descent-in-plain-english-6-ideas-we-should-remember-c64f5b4ceb7c?source=rss-acee003b5adb------2) (2 months ago)
+- [PR’s are not the Goal](https://medium.com/@mayori.engineering/prs-are-not-the-goal-bace1c1081a8?source=rss-acee003b5adb------2) (2 months ago)
 - [The Unseen Tax on Talent: When AI Proctoring Confuses Tics for Cheating and Accents for…](https://medium.com/@mayori.engineering/the-unseen-tax-on-talent-when-ai-proctoring-confuses-tics-for-cheating-and-accents-for-0e01240971fe?source=rss-acee003b5adb------2) (10 months ago)
 - [The Critical Challenge of Intellectual Property and Sourcing Ethics](https://medium.com/@mayori.engineering/the-critical-challenge-of-intellectual-property-and-sourcing-ethics-a8876abe5c9c?source=rss-acee003b5adb------2) (11 months ago)
 
 #### 👷 I'm currently working on (aka my most recent contributions)
 
-- [mikemayori/load-testing](https://github.com/mikemayori/load-testing) - Load testing step, baseline, ... (1 month ago)
+- [mikemayori/stash-sim](https://github.com/mikemayori/stash-sim) -  (1 day ago)
+- [mikemayori/load-testing](https://github.com/mikemayori/load-testing) - Load testing step, baseline, ... (2 months ago)
 - [mikemayori/litecoin-resilient](https://github.com/mikemayori/litecoin-resilient) -  (2 months ago)
 - [mikemayori/rproxy4crypto](https://github.com/mikemayori/rproxy4crypto) -  (3 months ago)
 - [mikemayori/mesh-deposit-poc](https://github.com/mikemayori/mesh-deposit-poc) - initial (5 months ago)
 - [mikemayori/mesh-iframe-poc](https://github.com/mikemayori/mesh-iframe-poc) - Mesh Iframe POC Validation (6 months ago)
 - [mikemayori/payment_gateway_simulator](https://github.com/mikemayori/payment_gateway_simulator) -  (6 months ago)
 - [mikemayori/consumer-pattern](https://github.com/mikemayori/consumer-pattern) -  (6 months ago)
-- [mikemayori/exchange-simulator](https://github.com/mikemayori/exchange-simulator) - Exchange Simulator (6 months ago)
+- [mikemayori/exchange-simulator](https://github.com/mikemayori/exchange-simulator) - Exchange Simulator (7 months ago)
 
 #### 🚀 My recent pull requests
 
 
 #### 🏗️ My recent projects
 
+- [mikemayori/stash-sim](https://github.com/mikemayori/stash-sim) - 
 - [mikemayori/load-testing](https://github.com/mikemayori/load-testing) - Load testing step, baseline, ...
 - [mikemayori/litecoin-resilient](https://github.com/mikemayori/litecoin-resilient) - 
 - [mikemayori/rproxy4crypto](https://github.com/mikemayori/rproxy4crypto) - 
