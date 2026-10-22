@@ -32,7 +32,7 @@ My name is Mike and I'm a Senior Software Engineer
 
 #### 👷 I'm currently working on (aka my most recent contributions)
 
-- [mikemayori/stash-sim](https://github.com/mikemayori/stash-sim) -  (1 week ago)
+- [mikemayori/stash-sim](https://github.com/mikemayori/stash-sim) -  (2 weeks ago)
 - [mikemayori/load-testing](https://github.com/mikemayori/load-testing) - Load testing step, baseline, ... (2 months ago)
 - [mikemayori/litecoin-resilient](https://github.com/mikemayori/litecoin-resilient) -  (3 months ago)
 - [mikemayori/rproxy4crypto](https://github.com/mikemayori/rproxy4crypto) -  (4 months ago)
