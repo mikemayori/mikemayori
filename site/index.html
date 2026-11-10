@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050913" />
+  <title>AI in Motion — Ideas in motion</title>
+  <style>
+    :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#fff;background:#050913;font-synthesis:none}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}a{color:inherit;text-decoration:none}button,a{transition:background .2s,border-color .2s,transform .2s}a:hover{transform:translateY(-1px)}.hero{position:relative;min-height:680px;min-height:100svh;overflow:hidden;display:flex;flex-direction:column;background:#050913}.hero canvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}.vignette{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,transparent 10%,rgba(5,9,19,.58) 90%)}.nav,.hero-main,.hero-footer{position:relative;z-index:1}.nav{display:flex;justify-content:space-between;align-items:center;padding:25px clamp(22px,5vw,72px);gap:16px}.brand{display:flex;align-items:center;gap:12px;font-size:14px;font-weight:750;letter-spacing:-.02em;white-space:nowrap}.brand-dots{display:flex;align-items:center;gap:4px}.brand-dots i{display:block;width:9px;height:9px;background:#67e8f9;border-radius:50%}.brand-dots i:nth-child(2){width:6px;height:6px;background:#818cf8}.brand-dots i:nth-child(3){width:8px;height:8px;background:#c084fc}.nav-links{display:flex;gap:30px;color:#94a3b8;font-size:13px}.nav-links a:hover{color:white}.contact{padding:11px 18px;border:1px solid #ffffff33;border-radius:99px;font-size:12px;white-space:nowrap}.contact:hover,.secondary:hover{background:#ffffff16}.hero-main{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:55px 22px 75px}.eyebrow{display:inline-flex;align-items:center;gap:9px;padding:10px 16px;border:1px solid #67e8f933;border-radius:99px;background:#67e8f90c;color:#a5f3fc;font-size:11px;letter-spacing:.16em;text-transform:uppercase;margin-bottom:30px}.pulse{width:7px;height:7px;border-radius:50%;background:#22d3ee;box-shadow:0 0 12px #22d3ee;animation:pulse 2s infinite}@keyframes pulse{50%{opacity:.3}}h1{font-size:clamp(42px,7.2vw,92px);line-height:1.08;letter-spacing:-.055em;margin:0 0 25px;font-weight:720}.gradient{background:linear-gradient(100deg,#67e8f9,#818cf8,#d8b4fe);background-clip:text;-webkit-background-clip:text;color:transparent}.intro{color:#a0aec2;line-height:1.75;font-size:clamp(14px,1.6vw,17px);max-width:590px;margin:0 0 35px}.actions{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}.actions a{padding:15px 24px;border-radius:99px;font-size:14px;font-weight:650}.primary{background:#a5f3fc;color:#07111d}.primary:hover{background:#67e8f9}.secondary{border:1px solid #ffffff33;background:#ffffff0b}.hero-footer{display:flex;justify-content:space-between;gap:12px;padding:0 clamp(22px,5vw,72px) 26px;color:#64748b;font-size:10px;letter-spacing:.12em}.status{display:flex;align-items:center;gap:8px}.status i{width:7px;height:7px;border-radius:50%;background:#34d399}.about{padding:70px clamp(22px,7vw,110px);background:#0a1020}.about h2{font-size:clamp(24px,3vw,38px);margin:0 0 14px}.about p{color:#94a3b8;line-height:1.8;max-width:700px;margin:0}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#263044}.feature{padding:38px 20px;background:#0a1020;text-align:center}.feature-symbol{font-size:29px;color:#a5f3fc;margin-bottom:12px}.feature:nth-child(2) .feature-symbol{color:#a5b4fc}.feature:nth-child(3) .feature-symbol{color:#d8b4fe}.feature h3{font-size:15px;font-weight:600;margin:0}@media(max-width:600px){.nav-links{display:none}.contact{padding:9px 12px}.hero-footer span:last-child{display:none}.features{grid-template-columns:1fr}.feature{padding:28px}.hero{min-height:650px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
+  </style>
+</head>
+<body>
+  <section class="hero" id="home">
+    <canvas id="particles" aria-hidden="true"></canvas><div class="vignette"></div>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="#home"><span class="brand-dots" aria-hidden="true"><i></i><i></i><i></i></span>AI IN MOTION</a>
+      <div class="nav-links"><a href="#about">About</a><a href="#technology">Technology</a><a href="mailto:hello@aiinmotion.dev">Contact</a></div>
+      <a class="contact" href="mailto:hello@aiinmotion.dev">Get in touch ↗</a>
+    </nav>
+    <main class="hero-main">
+      <div class="eyebrow"><span class="pulse"></span>Exploring what's next</div>
+      <h1>Ideas in motion.<br><span class="gradient">Intelligence in action.</span></h1>
+      <p class="intro">Where artificial intelligence, cloud infrastructure, and bold ideas come together to build the future.</p>
+      <div class="actions"><a class="primary" href="#about">Explore the future ↗</a><a class="secondary" href="#technology">Discover more</a></div>
+    </main>
+    <div class="hero-footer"><span>AIINMOTION.DEV</span><span class="status"><i></i>SYSTEM ONLINE</span><span>SCROLL TO EXPLORE ↓</span></div>
+  </section>
+  <section class="about" id="about"><h2>Build. Experiment. Evolve.</h2><p>A space for intelligent systems, cloud-native engineering, and experimentation. Every great idea starts with a single connection.</p></section>
+  <section class="features" id="technology" aria-label="Technology focus"><div class="feature"><div class="feature-symbol">◈</div><h3>AI Systems</h3></div><div class="feature"><div class="feature-symbol">⬡</div><h3>Cloud Native</h3></div><div class="feature"><div class="feature-symbol">✧</div><h3>Innovation</h3></div></section>
+  <script>
+  (()=>{
+    const hero=document.querySelector('.hero'),canvas=document.querySelector('#particles'),ctx=canvas.getContext('2d');
+    const reducedMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    let width=0,height=0,particles=[],frame=0,raf=0;
+    const mouse={x:-9999,y:-9999};
+    function resize(){const r=hero.getBoundingClientRect();width=r.width;height=r.height;const dpr=Math.min(window.devicePixelRatio||1,2);canvas.width=Math.round(width*dpr);canvas.height=Math.round(height*dpr);ctx.setTransform(dpr,0,0,dpr,0,0);const count=Math.min(190,Math.floor(width*height/3800));particles=Array.from({length:count},()=>({x:Math.random()*width,y:Math.random()*height,vx:(Math.random()-.5)*.6,vy:(Math.random()-.5)*.6,r:.5+Math.random()*1.7,c:Math.floor(Math.random()*3)}));}
+    function render(){frame++;ctx.clearRect(0,0,width,height);const colors=['103,232,249','129,140,248','192,132,252'];for(let i=0;i<particles.length;i++){const p=particles[i];if(!reducedMotion){p.x+=p.vx;p.y+=p.vy;if(p.x<0||p.x>width)p.vx*=-1;if(p.y<0||p.y>height)p.vy*=-1;const distance=Math.hypot(p.x-mouse.x,p.y-mouse.y);if(distance<115&&distance>0){p.x+=(p.x-mouse.x)/distance*.65;p.y+=(p.y-mouse.y)/distance*.65;}}for(let j=i+1;j<particles.length;j++){const q=particles[j],dist=Math.hypot(p.x-q.x,p.y-q.y);if(dist<105){ctx.beginPath();ctx.strokeStyle=`rgba(110,165,255,${(1-dist/105)*.19})`;ctx.lineWidth=.7;ctx.moveTo(p.x,p.y);ctx.lineTo(q.x,q.y);ctx.stroke();}}const c=colors[p.c];ctx.beginPath();ctx.fillStyle=`rgba(${c},${reducedMotion?.65:.45+.3*Math.sin(frame*.018+i)})`;ctx.shadowColor=`rgba(${c},.7)`;ctx.shadowBlur=p.r>1.3?12:5;ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fill();ctx.shadowBlur=0;}if(!reducedMotion)raf=requestAnimationFrame(render);}
+    hero.addEventListener('pointermove',e=>{const r=hero.getBoundingClientRect();mouse.x=e.clientX-r.left;mouse.y=e.clientY-r.top;});hero.addEventListener('pointerleave',()=>{mouse.x=-9999;mouse.y=-9999;});
+    const observer=new ResizeObserver(()=>{resize();if(reducedMotion)render();});observer.observe(hero);resize();render();document.addEventListener('visibilitychange',()=>{if(!reducedMotion){cancelAnimationFrame(raf);if(!document.hidden)render();}});
+  })();
+  </script>
+</body>
+</html>
